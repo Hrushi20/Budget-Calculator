@@ -1,0 +1,10 @@
+.Btns{
+   margin-bottom: 30px;
+   outline: none;
+   color: white;
+   border-radius: 4px;
+   background-color: rgb(34, 8, 128);
+   text-transform: uppercase;
+   font-size: 20px;
+   padding: 10px;
+}

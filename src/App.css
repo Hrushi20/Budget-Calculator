@@ -1,0 +1,75 @@
+.Container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid red;
+}
+.Heading{
+  padding-bottom: 50px;
+  text-transform: uppercase;
+  color: rgb(34, 8, 128);
+  text-decoration: underline;
+}
+
+ .Content{
+  width: 80%;
+  background-color: white;
+  box-shadow: 2px 2px 2px rgb(185, 182, 182);
+}
+.Input{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 30px;
+}
+.InputInner{
+  display: flex;
+  flex-direction: column;
+}
+.Btn{
+  display: flex;
+  justify-content: center;
+}
+.List{
+  margin: 0px 25px;
+}
+.ListItems{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  border: 1px solid black;
+}
+.Icon{
+  margin: 10px;
+  cursor: pointer;
+}
+.Balance{
+  padding-top: 50px;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(34, 8, 128);
+}
+.Deleted{
+  display: none;
+}
+@media (max-width: 775px){
+  .Input{
+    flex-direction: column;
+    padding: 10px;
+    height: 200px;
+  }
+  
+}
+@media (max-width: 400px){
+  .Heading{
+    width: 250px;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-bottom: -30px;
+  }
+  .Balance{
+    font-size: 20px;
+    margin-top: -30px;
+  }
+}
